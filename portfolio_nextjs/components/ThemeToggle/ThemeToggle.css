@@ -1,0 +1,30 @@
+.themeToggle_btn{
+    border: 1px solid rgb(255, 255, 255);
+    width: 35px;
+    padding: 1px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: rgb(0, 0, 0);
+    color: white;
+}
+@media only screen and (max-width: 992px)  {
+    .themeToggle_btn{
+        position: absolute;
+        right: 200px;
+    }
+  }
+@media only screen and (max-width: 768px)  {
+    .themeToggle_btn{
+        position: absolute;
+        right: 150px;
+    }
+  }
+@media only screen and (max-width: 576px)  {
+    .themeToggle_btn{
+        position: absolute;
+        right: 90px;
+    }
+  }
